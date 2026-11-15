@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/parecer-facil-app/sw.js', { scope: '/parecer-facil-app/' })})}
